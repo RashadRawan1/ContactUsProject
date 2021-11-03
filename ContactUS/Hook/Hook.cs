@@ -22,7 +22,6 @@ namespace SpecFlowContactUsProject.Hooks
             _driver = new ChromeDriver();
             _objectContainer.RegisterInstanceAs(_driver);
             _driver.Manage().Window.Maximize();
-
         }
 
         [AfterScenario]
@@ -30,6 +29,5 @@ namespace SpecFlowContactUsProject.Hooks
         {
             _driver.Quit();
         }
-
     }
 }

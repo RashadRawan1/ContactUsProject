@@ -1,7 +1,6 @@
 ﻿using ContactUS.Core;
 using ContactUS.SUT.PageObjects;
 using OpenQA.Selenium;
-using System;
 
 namespace ContactUS.SUT.Actions
 {
